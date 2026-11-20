@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int menu, jumlah;
+    cout << "1. Soto 15000\n2. Rawon 20000\n";
+    cin >> menu >> jumlah;
+    if (menu == 1) cout << 15000 * jumlah;
+    if (menu == 2) cout << 20000 * jumlah;
+}
