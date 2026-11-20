@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    string nama, sekolah;
+    char lagi;
+    do {
+        cout << "Nama: ";
+        cin >> nama;
+        cout << "Sekolah: ";
+        cin >> sekolah;
+        cout << nama << " " << sekolah << endl;
+        cout << "Lagi? (y/n): ";
+        cin >> lagi;
+    } while (lagi == 'y');
+}
