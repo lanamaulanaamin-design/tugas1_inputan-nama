@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int menu, jumlah, harga = 0;
+    cout << "1. Soto 15000\n2. Rawon 20000\n3. Pecel 10000\n4. Teh 3000\n5. Kopi 5000\n";
+    cin >> menu >> jumlah;
+    if (menu == 1) harga = 15000;
+    if (menu == 2) harga = 20000;
+    if (menu == 3) harga = 10000;
+    if (menu == 4) harga = 3000;
+    if (menu == 5) harga = 5000;
+    cout << harga * jumlah;
+}
